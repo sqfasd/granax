@@ -4,7 +4,6 @@
   "description": "complete client implementation of the tor control protocol",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node script/download-tbb.js",
     "test": "npm run test-suite && npm run linter",
     "test-suite": "mocha test/** --recursive",
     "coverage": "istanbul cover _mocha -- --recursive",
